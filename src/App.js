@@ -7,7 +7,6 @@ import data from './data.json';
 
 import './App.scss';
 
-
 function App() {
   const [jobs, setJob] = useState(data);
   const [filter, setFilter] = useState([]);
